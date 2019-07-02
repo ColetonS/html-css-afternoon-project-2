@@ -34,12 +34,13 @@ nav {
     position: absolute;
     right: 2em;
     top: 1em;
+    color: white;
 }
 main {
     background-color: #e1e7fa;
     height: 80vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
     padding-left: 10vw;
     
@@ -50,4 +51,23 @@ main {
     background-color: blue;
     color: white;
     border-radius: 25px;
+}
+#subscribe-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+}
+
+.subscribe {
+    width: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.invision-icon img {
+    max-width: 2em;
+    height: auto;
+    display: flex;
+    align-content: flex-end;
 }
