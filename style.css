@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.attention-bar {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://s3.amazonaws.com/www-inside-design/static/img/butterbar-dbpodcast.png")
+}
+#podcast-link {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 7%;
+}
+nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+.logo h2 {
+    margin: 0;
+}
+.logo p {
+    margin: 0
+}
