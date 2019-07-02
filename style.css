@@ -30,3 +30,24 @@ nav {
 .logo p {
     margin: 0
 }
+#close-x {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+}
+main {
+    background-color: #e1e7fa;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 10vw;
+    
+}
+#report-button {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+}
